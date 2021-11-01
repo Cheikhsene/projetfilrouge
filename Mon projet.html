@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Projet</title>
+    <link rel="stylesheet" href="style/Style.css">
+    <div class="welcome">
+        <h1 class="marquee">BIENVENUE DANS NOTRE PAGE</h1>
+    </div>
+</head>
+<br><br>
+<br><br>
+
+<nav id="menudiv">
+
+    <ul class="menusimple">
+        <li><a href="#">Teste1</a></li>
+        <li><a href="#">Teste2</a></li>
+        <li><a href="#">Teste3</a></li>
+        <li><a href="#">Teste4</a></li>
+    </ul>
+</nav>
+
+<body background ="../Projet fil rouge/img/lune.jpg">
+    
+    <form action="/ma-page-de-traitement" method="post">
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">e-mail :</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Envoyer le message</button>
+        </div>
+    </form>
+</body>
+</html>
